@@ -1,5 +1,5 @@
 export function signup(req, res) {
-    res.send('Signup Route');
+    const { FullName, UserName, Email, Password } = req.body;
  }
 
 export function login(req, res) {
